@@ -2,18 +2,11 @@ import java.util.Scanner;
 
 public class Taska {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
+        double k = Math.sqrt(a*a + b*b);
+        System.out.println(k);
 
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
-
-        double c = Math.sqrt(a * a + b * b);
-
-        System.out.println(c);
     }
 }
-
-
-
-
-
