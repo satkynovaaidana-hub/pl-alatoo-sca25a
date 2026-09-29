@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
-public class TaskG {
+public class Taskg {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.out);
-        int n = scanner.nextInt();
-        System.out.println(n / 10);
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int k = n/10;
+        System.out.println(k);
+
     }
 }
