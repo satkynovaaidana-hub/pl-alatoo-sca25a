@@ -1,8 +1,9 @@
 import java.util.Scanner;
+
 public class Taskh {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.out);
-        int n = scanner.nextInt();
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
         System.out.println((n / 10) % 10);
     }
 }
