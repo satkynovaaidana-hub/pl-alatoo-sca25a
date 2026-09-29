@@ -4,8 +4,8 @@ public class Taskv {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int k = ((a / b) + 1000) / 1000;
+        int f = (a - b + 1000) / 1000;
 
-        System.out.println(a * k + b * (1 - k));
+        System.out.println(a * f + b * (1 - f));
     }
 }
