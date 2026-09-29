@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.out);
-        int n = scanner.nextInt();
-        System.out.println(n % 10);
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = a%10;
+        System.out.println(b);
     }
 }
 
